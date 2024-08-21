@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SafePath</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json" />
+</head>
+
+<body>
+  <header>
+    <h1 class="title-label">SafePath</h1>
+    <h2 class="subtitle-label">Browns Mills Division</h2>
+    <h2 class="subtitle-label" id="date-label">DATEVALUE <!-- JavaScript will insert date here --></h2>
+  </header>
+
+  <main>
+    <section class="presence-section">
+      <p class="std-text">Police Presence is <span id="presence-value">VALUE</span> today</p>
+    </section>
+
+    <section class="actions-section">
+      <button id="report-button" class="action-button">I See Police</button>
+      <button id="contact-button" class="action-button">Contact Us</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
