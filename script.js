@@ -2,7 +2,8 @@
 const GIST_URL = 'https://api.github.com/gists/b52212a95a3425e52c07ee1a412284be'; // Replace with your actual Gist ID
 const ZIP_CODE = '08015';
 const DATE_KEY = getCurrentDate(); // Function to get today's date in MMDDYYYY format
-const ACCESS_TOKEN = ; // Your GitHub token
+const GIST_URL = `https://api.github.com/gists/${process.env.REACT_APP_API_KEY}`;
+// Your GitHub token
 
 // Generate a persistent deviceId using localStorage
 function getDeviceId() {
